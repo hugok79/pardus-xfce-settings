@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # langs=("tr" "pt" "de")
-langs=("tr" "pt")
+langs=("pt" "tr")
 
 if ! command -v xgettext &> /dev/null
 then
