@@ -3,10 +3,6 @@ late-locking=false
 lock-after-screensaver=0
 lock-on-suspend=true
 
-[org.gnome.desktop.interface]
-gtk-theme='Adapta-Blue-Eta'
-icon-theme='pardus'
-
 [org.xfce.mousepad.preferences.view]
 font-name='DejaVu Sans Mono 10'
 use-default-monospace-font=false
