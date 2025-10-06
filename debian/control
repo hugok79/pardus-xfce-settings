@@ -2,20 +2,21 @@ Source: pardus-xfce-settings
 Section: xfce
 Priority: optional
 Maintainer: Fatih Altun <fatih.altun@pardus.org.tr>
-Build-Depends: debhelper (>= 9), intltool
-Standards-Version: 3.9.8
-Homepage: https://www.pardus.org.tr
+Build-Depends: debhelper-compat (= 13), intltool
+Standards-Version: 4.6.1
+Homepage: https://github.com/pardus/pardus-xfce-settings
 
 Package: pardus-xfce-settings
 Architecture: all
-Depends: ${misc:Depends},
- dbus-x11,
- fonts-ubuntu,
- lightdm-gtk-greeter,
- x11-common,
- xfce4-session,
- xfconf,
- zenity
+Depends: dbus-x11,
+         fonts-ubuntu,
+         lightdm-gtk-greeter,
+         x11-common,
+         xfce4-session,
+         xfconf,
+         zenity,
+         ${misc:Depends},
+         ${python3:Depends}
 Recommends: libxfce4ui-utils, numlockx, onboard
 Replaces: pardus-x11-settings
 Provides: lightdm-gtk-greeter-config
@@ -25,6 +26,8 @@ Description: default settings for the Pardus desktop
 
 Package: pardus-xfce-live-settings
 Architecture: all
-Depends: ${misc:Depends}, pardus-xfce-settings
-Description: configuration for the Paruds live cd
+Depends: ${misc:Depends},
+         ${python3:Depends},
+         pardus-xfce-settings
+Description: configuration for the Pardus live cd
  This package contains live cd customizations used by Pardus.
