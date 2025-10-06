@@ -1,3 +1,19 @@
+pardus-xfce-settings (2025.0~alpha1) yirmibes; urgency=medium
+
+  [ Hugo Carvalho ]
+  * Add portuguese `pt`
+  * Add portuguese translation
+  * Improve portuguese translation
+  * Add files via upload
+
+  [ Fatih Altun ]
+  * Rm mousepad polkit
+  * Rm touchpad xorg conf
+  * Rm gnome interface settings from gsettings
+  * Update debian standards
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Mon, 06 Oct 2025 17:12:37 +0300
+
 pardus-xfce-settings (2023.1) yirmiuc; urgency=medium
 
   * Update default font as ubuntu
