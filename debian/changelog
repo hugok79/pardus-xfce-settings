@@ -1,3 +1,10 @@
+pardus-xfce-settings (2025.0~alpha2) yirmibes; urgency=medium
+
+  [ Yusuf Düzgün ]
+  * update whisker menu icon
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Fri, 10 Oct 2025 19:25:52 +0300
+
 pardus-xfce-settings (2025.0~alpha1) yirmibes; urgency=medium
 
   [ Hugo Carvalho ]
