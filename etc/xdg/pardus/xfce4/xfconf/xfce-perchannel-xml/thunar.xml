@@ -7,4 +7,5 @@
   <property name="shortcuts-icon-size" type="string" value="THUNAR_ICON_SIZE_SMALLEST"/>
   <property name="last-window-width" type="int" value="640"/>
   <property name="last-window-height" type="int" value="540"/>
+  <property name="misc-symbolic-icons-in-sidepane" type="bool" value="true"/>
 </channel>
