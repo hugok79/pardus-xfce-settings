@@ -6,11 +6,12 @@ button-title=
 button-icon=/usr/share/icons/pardus-xfce/statusbar/start-pardus-xfce-25.svg
 show-button-icon=true
 load-hierarchy=false
-view-as-icons=false
+view-mode=0
 launcher-show-name=true
 launcher-show-description=false
 item-icon-size=2
-category-icon-size=1
+category-icon-size=2
+launcher-icon-size=3
 hover-switch-category=false
 favorites-in-recent=true
 display-recent-default=false
@@ -26,6 +27,8 @@ show-command-lockscreen=true
 command-logout=xfce4-session-logout
 show-command-logout=true
 position-categories-alternate=true
+menu-width=615
+menu-height=575
 
 [action0]
 name=Man Pages
